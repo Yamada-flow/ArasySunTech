@@ -10,7 +10,7 @@ const settings = {
   httpNodeRoot: "/ui",
   userDir: "./.nodered",
   functionGlobalContext: {},
-  port: process.env.PORT || 3000
+  port: process.env.PORT || 1880
 };
 
 RED.init(server, settings);
